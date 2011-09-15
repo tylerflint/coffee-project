@@ -1,0 +1,21 @@
+{
+  "name": "test-coffee",
+  "description": "testing what the heck coffee + node can do",
+  "version": "0.0.1",
+  "author": "Tyler Flint",
+  "bin": {
+    "test-coffee": "./bin/test-coffee"
+  },
+  "main": "./lib/index.js",
+  "devDependencies": {
+    "nodeunit": ">= 0.5.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=0.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tylerflint/sandbox.git"
+  }
+}

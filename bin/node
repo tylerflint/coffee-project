@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# exec node $@
+
+echo "hey"

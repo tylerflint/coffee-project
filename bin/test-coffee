@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+project_base=$( echo "$(readlink $0)" | sed "s/\/bin\/test-coffee//")
+
+$project_base/bin/node
